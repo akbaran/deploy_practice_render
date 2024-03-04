@@ -23,7 +23,11 @@ const router = createRouter({
       name: 'about',
       component: AboutView
     }
-
+    ,
+    {
+      path: '*',
+      component: NotFoundComponent
+    }
   ]
 })
 
